@@ -1,30 +1,30 @@
-#Project Euler #1: Multiples of 3 and 5
-If we list all the natural numbers below  that are multiples of  or , we get  and . The sum of these multiples is .
+# Project Euler 1: Multiples of 3 and 5
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23.
 
-Find the sum of all the multiples of  or  below .
+Find the sum of all the multiples of 3 or 5 below N.
 
-###Input Format
+### Input Format
 
-First line contains  that denotes the number of test cases. This is followed by  lines, each containing an integer, .
+First line contains T that denotes the number of test cases. This is followed by T lines, each containing an integer, N.
 
 Constraints
+- 1 <= T <= 10^5
+- 1 <= N <= 10^9
 
-###Output Format
+### Output Format
 
-For each test case, print an integer that denotes the sum of all the multiples of  or  below .
+For each test case, print an integer that denotes the sum of all the multiples of 3 or 5 below N.
 
-###Sample Input 
-
-2
-10
+#### Sample Input 
+2  
+10  
 100
 
-###Sample Output 
-
-23
+#### Sample Output 
+23  
 2318
 
-###Explanation
+#### Explanation
 
 For N = 10, if we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23.
 
