@@ -12,9 +12,7 @@ public class Solution {
         for (int a0 = 0; a0 < t; a0++) {
             long n = in.nextInt();
             System.out.println(sum(n, 3) + sum(n, 5) - sum(n, 15));
-
         }
-
     }
 
     public static long sum(long n, int multiple) {
